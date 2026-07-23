@@ -1,0 +1,17 @@
+{
+  "name": "沪学错题本",
+  "short_name": "错题本",
+  "description": "上海初中生智能错题分析与重做工具",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ed",
+  "theme_color": "#176b5b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
