@@ -13,7 +13,7 @@
     "test": "vitest run",
     "preview": "vite preview",
     "desktop:dev": "concurrently \"vite\" \"wait-on tcp:5173 && electron .\"",
-    "desktop:build": "npm run build && electron-builder --win",
+    "desktop:build": "npm run build && electron-builder --win --publish never",
     "android:add": "cap add android",
     "android:sync": "npm run build && cap sync android",
     "android:open": "cap open android"
